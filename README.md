@@ -1,0 +1,56 @@
+## Node API User
+
+#### API to manage users, desenvolvida em Node com typescript, transpiled with Typescript.
+
+:o: **Problem:**<br> Create a Node API developed with typescript.
+
+:heavy_check_mark: **Solution:**<br> Documentation and community searches.
+
+:dart: **Impact:**<br> Have knowledge and flexibility in technology.
+
+:bicyclist: **Run:**
+
+-   Clone this repository
+-   Install the dependences:
+
+```
+npm install
+```
+
+-   To run:
+
+```
+npm start
+```
+
+⚙️ **Requirements:**
+
+-   Node
+-   Typescript
+-   NPM
+-   MongoDB
+
+📄 **Specifications:**<br>
+
+The database was assigned the name `http_app` on MongoDB and the port `27017` to connect to the bank, make changes according to your environment. <br> **Schema:**<br>
+
+```
+name: { type:  String, required:  true },
+
+nickname: { type:  String, required:  true, unique:  true },
+
+whatsapp: { type:  String, required:  true, unique:  true },
+
+createdAt: { type:  Date, default:  Date.now },
+```
+
+**Endpoints:**<br>
+
+| Methods |      Routes      | Result                  |
+| ------- | :--------------: | ----------------------- |
+| get     |       '/'        | Hello World             |
+| get     |   '/api/users'   | Redeem all users        |
+| get     | '/api/users/:id' | Redeem a specific user  |
+| post    |   '/api/users'   | Create a user           |
+| delete  | '/api/users/:id' | Delete a specific user  |
+| put     | '/api/users/:id' | Changes a specific user |
