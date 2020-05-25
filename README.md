@@ -32,16 +32,16 @@ npm start
 
 📄 **Specifications:**<br>
 
-The database was assigned the name `http_app` on MongoDB and the port `27017` to connect to the bank, make changes according to your environment. <br> **Schema:**<br>
+The database was assigned the name `http_app` on MongoDB and the port `27017` to connect to the bank, make changes according to your environment. <br><br> **Schema:**<br>
 
 ```
-name: { type:  String, required:  true },
+name: String,
 
-nickname: { type:  String, required:  true, unique:  true },
+nickname: String,
 
-whatsapp: { type:  String, required:  true, unique:  true },
+whatsapp: String,
 
-createdAt: { type:  Date, default:  Date.now },
+createdAt: Date
 ```
 
 **Endpoints:**<br>
