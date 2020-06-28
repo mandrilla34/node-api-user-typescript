@@ -1,6 +1,6 @@
-## Node API User
+<h3 align="center">Node API User</h3>
 
-#### API to manage users, desenvolvida em Node com typescript, transpiled with Typescript.
+<h4 align="center">REST API to manage users, developed in Node with typescript, transpiled with typescript.</h4>
 
 :o: **Problem:**<br> Create a Node API developed with typescript.
 
