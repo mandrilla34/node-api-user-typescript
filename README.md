@@ -2,7 +2,7 @@
 
 <h4 align="center">REST API to manage users, developed in Node with typescript, transpiled with typescript.</h4>
 
-:o: **Problem:**<br> Create a Node API developed with typescript.
+:o: **Problem:**<br> Create a Node REST API developed with typescript.
 
 :heavy_check_mark: **Solution:**<br> Documentation and community searches.
 
