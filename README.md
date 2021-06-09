@@ -1,4 +1,4 @@
-<h3 align="center">Node Server Typescript Demo</h3>
+<h3 align="center">Node Typescript Server Demo</h3>
 
 <h4 align="center">API REST para gerenciamento de usuários, desenvolvida em Node com typescript, transpilada com typescript.</h4>
 
