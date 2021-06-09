@@ -1,38 +1,34 @@
-<h3 align="center">Node API User</h3>
+<h3 align="center">Node Server Typescript Demo</h3>
 
-<h4 align="center">REST API to manage users, developed in Node with typescript, transpiled with typescript.</h4>
+<h4 align="center">API REST para gerenciamento de usuários, desenvolvida em Node com typescript, transpilada com typescript.</h4>
 
-:o: **Problem:**<br> Create a Node REST API developed with typescript.
+:o: **Problema:**<br> Criar uma API REST em Node desenvolvida com typescript.
 
-:heavy_check_mark: **Solution:**<br> Documentation and community searches.
+:heavy_check_mark: **Solução:**<br> Documentação e pesquisas na comunidade.
 
-:dart: **Impact:**<br> Have knowledge and flexibility in technology.
+:dart: **Impacto:**<br> Ter conhecimento e flexibilidade em tecnologia.
 
-:bicyclist: **Run:**
+:bicyclist: **Corra:**
 
--   Clone this repository
--   Install the dependences:
+-   Clone este repositório
+-   Instale as dependências:
 
 ```
 npm install
 ```
 
--   To run:
+-   Corra:
 
 ```
 npm start
 ```
 
-⚙️ **Requirements:**
+:clipboard: **Especificações:**<br>
 
--   Node
--   Typescript
--   NPM
--   MongoDB
+O banco de dados recebeu o nome `http_app` no MongoDB e na porta `27017` 
+para se conectar ao banco, faça alterações de acordo com o ambiente. <br>
 
-📄 **Specifications:**<br>
-
-The database was assigned the name `http_app` on MongoDB and the port `27017` to connect to the bank, make changes according to your environment. <br><br> **Schema:**<br>
+<h5>Schema:</h5>
 
 ```
 name: String,
@@ -44,13 +40,13 @@ whatsapp: String,
 createdAt: Date
 ```
 
-**Endpoints:**<br>
+<h5>Endpoints:</h5>
 
-| Methods |      Routes      | Result                  |
-| ------- | :--------------: | ----------------------- |
-| get     |       '/'        | Hello World             |
-| get     |   '/api/users'   | Redeem all users        |
-| get     | '/api/users/:id' | Redeem a specific user  |
-| post    |   '/api/users'   | Create a user           |
-| delete  | '/api/users/:id' | Delete a specific user  |
-| put     | '/api/users/:id' | Changes a specific user |
+| Método  |      Rota        | Resultado                     |
+| ------- | :--------------: | ------------------------------|
+| get     |       '/'        | Hello World                   |
+| get     |   '/api/users'   | Resgata todos os usuários     |
+| get     | '/api/users/:id' | Resgata um usuário específico |
+| post    |   '/api/users'   | Cria um usuário               |
+| delete  | '/api/users/:id' | Deleta um usuário específico  |
+| put     | '/api/users/:id' | Altera um usuário específico  |
